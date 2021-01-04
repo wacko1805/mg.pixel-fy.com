@@ -15,7 +15,7 @@
 }
 @media only screen and (max-width: 600px) {
 h1 {
-  font-size: 7vw;
+  font-size: 6.3vw;
 }
 }
 a {
@@ -48,7 +48,7 @@ h1:hover {
   margin-right: 10%;
 }
 h3 {
-  color:   #98acf8;
+  color:   #393e46;
   font-size: 25px;
   text-align: center;
   margin-bottom: 0;
@@ -59,6 +59,20 @@ header h3 {
   text-align: left;
   margin-bottom: 0;
   margin-left: 5%;
+}
+@media only screen and (max-width: 600px) {
+header h3 {
+  font-size: 4vw;
+  margin-top:  6.5vw;
+}
+}
+header {
+  margin-top: 5px;
+}
+@media only screen and (max-width: 600px) {
+header {
+  margin-top: 10px;
+  margin-bottom: 10%;
 }
 p {
   color: #393e46;
