@@ -37,8 +37,33 @@ h1:hover {
   display: inline-block;
   font-size: 16px;
   transition: 0.3s;
+  width: 100%;
 }
 .btn:hover {
+  background-color: #9088d4;
+  cursor: pointer;
+}
+
+.dnldbtn {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  background-color: #98acf8; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+width: 82%;
+margin: 0;
+position: absolute;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+.dnldbtn:hover {
   background-color: #9088d4;
   cursor: pointer;
 }
@@ -169,4 +194,7 @@ footer a {
 }
 footer a:hover {
   color: #9088d4;
+}
+.main h3 {
+  text-align: left;
 }
