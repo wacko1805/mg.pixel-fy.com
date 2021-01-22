@@ -40,6 +40,12 @@ h1:hover {
   transition: 0.3s;
   width: 100%;
 }
+.btn2 {
+  width: 120px;
+}
+.btn3 {
+  background-color: #9088d4;
+}
 .btn:hover {
   background-color: #9088d4;
   cursor: pointer;
