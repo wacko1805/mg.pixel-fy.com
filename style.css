@@ -1,14 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+        @font-face {
+          font-family: mont;
+          src: url(Mont-HeavyDEMO.otf);
+        }
+
+        @font-face {
+          font-family: odin;
+          src: url(Odin\ Rounded\ -\ Bold.otf);
+        }
+
+        @font-face {
+          font-family: neufreit;
+          font-weight: 400;
+          src: url(Neufreit-ExtraBold.otf);
+        }
         body {
             background-color: #e8e8e8;
-            font-family: 'Poppins', sans-serif;
+            font-family: neufreit;
             margin: 0;
                 }
         h1 {
     margin-top: 0;
     padding: 10px;
-    font-size: 5vw;
+    font-size: 6vw;
     color: #393e46;
     transition: 0.3s;
     margin-bottom: -40px;
@@ -36,7 +51,7 @@ h1:hover {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   transition: 0.3s;
   width: 100%;
 }
@@ -59,7 +74,7 @@ h1:hover {
 }
 h3 {
   color:   #393e46;
-  font-size: 25px;
+  font-size: 40px;
   text-align: center;
   margin-bottom: 0;
 }
@@ -87,6 +102,12 @@ header {
 }
 p {
   color: #393e46;
+  font-size: 25px;
+}
+
+ul li {
+  font-size: 25px;
+
 }
 
 nav {
@@ -141,14 +162,14 @@ nav {
   padding: 20px;
 }
 .container .box .boxContent .title {
-  font-size: 24px;
+  font-size: 30px;
   color: #726a95;
   font-weight: bold;
   padding: 10px;
 }
 .container .box .boxContent .desc   {
   color: #726a95;
-  font-size: 15px;
+  font-size: 17px;
   height: 20%;
 }
 
