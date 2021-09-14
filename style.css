@@ -133,7 +133,7 @@ nav {
 }
 .container .box {
   width: 250px;
-  height: 250px;
+  /* height: 250px; */
   border-radius: 10px;
   background-color: #e8e8e8;
   margin: 20px;
@@ -171,6 +171,7 @@ nav {
   color: #726a95;
   font-size: 17px;
   height: 20%;
+  margin-left: 0;
 }
 
 .container .box a {

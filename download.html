@@ -11,20 +11,20 @@
   <meta name="description" content="Download MagiskGApps. Open source GApps Package">
   <meta name="keywords" content="Magisk, MagiskGApps, GApps, gapps, GAPPS, google apps, android root, opengapps, nikgapps, foss, open source, open surce gapps">
   <meta name="author" content="Jack Sam">
+  <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
   </head>
   <style>
 .container {
 display: flex;
 justify-content: space-evenly;
-align-items: center;
+align-items: flex-start;
 flex-wrap: wrap;
-height: 100%;
 transition: 0.3s ease-in-out;
 margin-bottom: 2%;
 }
 @media screen and (max-width: 1100px) {
 .container {
-height: 210%;
 }
 }
 @media screen and (max-width: 900px) {
@@ -41,7 +41,6 @@ height: 305%;
 
 .container .box {
 width: 300px;
-height: 1050px;
 border-radius: 10px;
 background-color: #e8e8e8;
 margin: 20px;
@@ -120,36 +119,40 @@ ul li {
               <div class="box">
                 <div class="boxContent">
                       <h1 class="title">GMS</h1>
-                  <ul class="desc">
-                    <h3 style="text-align: left;" class="desc">What you see:</h3><br>
-                      <li>Nothing</li>
-                      <br><h3 style="text-align: left;" class="desc">Behind the scenes:</h3><br>
-                      <li>GMS</li>
-
-                      <li>Google Service Framework</li>
-
-                      <li>Google Calendar Sync</li>
-                      <li>Google contacts Sync</li>
-
-                      <li>ExtraFiles</li>
-                  </ul>                  </div>
+                  <div class="desc">
+                    <zero-md src="https://raw.githubusercontent.com/wacko1805/MagiskGapps/assets/gsm.md">
+                      <template>
+                        <style>
+                          h2 {
+                            font-size: 20px;
+                          }
+                          ul li  {
+padding-top: 0;
+word-wrap: break-word;
+line-height: 2;
+}
+                        </style>
+                      </template></zero-md>
+                                  </div></div>
               </div></a>
               <a href="https://sourceforge.net/projects/magiskgapps/files/r/Core/"><div class="box">
                 <div class="boxContent">
                       <h1 class="title">Core</h1>
-                  <ul class="desc">
-                    <h3 style="text-align: left;" class="desc">What you see:</h3><br>
-                      <li>Google Play Store</li>
-                      <br><h3 style="text-align: left;" class="desc">Behind the scenes:</h3><br>
-                      <li>GMS</li>
-
-                      <li>Google Service Framework</li>
-
-                      <li>Google Calendar Sync</li>
-                      <li>Google contacts Sync</li>
-
-                      <li>ExtraFiles</li>
-                  </ul>                  </div>
+                      <div class="desc">
+                        <zero-md src="https://raw.githubusercontent.com/wacko1805/MagiskGapps/assets/core.md">
+                          <template>
+                            <style>
+                              h2 {
+                                font-size: 20px;
+                              }
+                              ul li  {
+padding-top: 0;
+word-wrap: break-word;
+line-height: 2;
+}
+                            </style>
+                          </template>
+                        </zero-md></div>     </div>
               </div></a>
           
               
@@ -157,132 +160,45 @@ ul li {
               <a href="https://sourceforge.net/projects/magiskgapps/files/r/Basic/"><div class="box">
                   <div class="boxContent">
                     <h1 class="title">Basic</h1>
-                    <ul class="desc">
-                      <h3 style="text-align: left;" class="desc">What you see:</h3><br>
-
-                      <li>Google Play Store</li>
-
-                      <li>Google Clock</li>
-
-                      <li>Vanced Manager</li>
-
-                      <li>Digital Wellbeing</li>
-                      
-                      <li>Google Dialer</li>
-                      
-                      <li>Google Messages</li>
-                      
-                      <li>Google Contacts</li>
-
-                      <br><h3 style="text-align: left;" class="desc">Behind the scenes:</h3><br>
-
-                      <li>GMS</li>
-
-                      <li>Google Service Framework</li>
-
-                      <li>Google Calendar Sync</li>
-
-                      <li>Google contacts Sync</li>
-
-                      <li>ExtraFiles</li>
-
-                      <li>Google Carrier Services</li>
-
-                              
-                      
-                      
-
-                  </ul>                  </div>
+                    <div class="desc">
+                      <zero-md src="https://raw.githubusercontent.com/wacko1805/MagiskGapps/assets/basic.md">
+                        <template>
+                          <style>
+                            h2 {
+                              font-size: 20px;
+                            }
+                            ul li  {
+padding-top: 0;
+word-wrap: break-word;
+line-height: 2;
+}
+                          </style>
+                        </template>
+                      </zero-md></div>         </div>
               </div></a>
           
               
               <a href="https://sourceforge.net/projects/magiskgapps/files/r/Stock/"><div class="box">
                 <div class="boxContent">
                   <h1 class="title">Stock</h1>
-                  <ul class="desc">
-                    <h3 style="text-align: left;" class="desc">What you see:</h3><br>
-
-                    <li>Google Clock </li>
-
-                      <li>Google Play Store</li>
-
-                      <li>Digital Wellbeing</li>
-                      
-                      <li>Vanced Manager</li>
-                      
-                      <li>Google Dialer</li>
-                      
-                      <li>Google Messages </li>
-                      
-                      <li>Google Contacts </li>
-
-                              
-                      <li>Google Drive</li>
-                      
-                      <li>Gmail </li>
-
-                      <li>Google Calculator </li>
-                      
-                      <li>Google/Pixel Setup<br> Wizard </li>
-                      
-                      <li>Google Maps</li>
-                      
-                      <li>Google Photos </li>
-
-                      <li>GBoard </li>
-                      
-                      <li>Google Calendar </li>
-                      
-                      <li>Google Feedback</li>
-
-                      <li>Pixel Launcher</li>
-
-                      <li>Google Files </li>
-                      
-                      <li>Google</li>
-                      
-                      <li>Google Play Games</li>
-
-
-                      <br><h3 style="text-align: left;" class="desc">Behind the scenes:</h3><br>
-
-                      <li>GMS</li>
-
-                      <li>Google Service Framework</li>
-
-                      <li>Google Calendar Sync</li>
-
-                      <li>Google contacts Sync</li>
-
-                      <li>ExtraFiles</li>
-
-                      <li>Google Carrier Services</li>
-                              
-                      <li>Device Health Services</li>
-
-
-                      
+                  <div class="desc">
+                    <zero-md src="https://raw.githubusercontent.com/wacko1805/MagiskGapps/assets/stock.md">
+                      <template>
+                        <style>
+                          h2 {
+                            font-size: 20px;
+                          }
+                          ul li  {
+padding-top: 0;
+word-wrap: break-word;
+line-height: 2;
+}
+                        </style>
+                      </template>
+                    </zero-md></div>  
                       
 
-                      <li>Android Device Policy</li>
-                      
-      
-                      
-                      <li>Google Partner Setup</li>
-                      
-                      
-                      <li>Device Personalization<br> Services</li>
-                      
-
-                      
-                      <li>Google Markup</li>
-                      
-                      <li>Google Sounds</li>
-                      
-                      <li>Google Wallpaper</li>
-                      
-                      
-                  </ul>                  </div>
+         </div>
               </div>
               </div></a>
       </div>
